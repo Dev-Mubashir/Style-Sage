@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stylesage/commons/widgets/widgets.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -19,7 +20,7 @@ class MyHomePage extends StatelessWidget {
         title: Text('My App'),
       ),
       body: Center(
-        child: Text('starter app template!'),
+        child: MyCard(),
       ),
     );
   }
